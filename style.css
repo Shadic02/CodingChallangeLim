@@ -1,0 +1,42 @@
+body {
+    background-image: url("img/background.jpg");
+    background-size: cover;
+}
+
+/* Quadrato in background */
+.boxmodel{
+    margin:50px 0px 50px 25%;
+    padding: 80px;
+    background-color:rgba(0, 0, 0, 0.5);
+    width: 50%;
+    align-content: center;
+    border-radius: 20px;
+}
+/* ^^^^^^^^^^^^^^^^^^^^^^ */
+.title {
+    color: #00dd00;
+    text-align: center;
+}
+
+.monopattini{
+    color: white;
+    margin-top: 25px;
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding: 25px 0px 5px 10px;
+}
+
+.boxbutton{
+    background-color: green;
+    text-align: center;
+    padding: 15px;
+}
+
+button{
+    margin-left: 10px;
+}

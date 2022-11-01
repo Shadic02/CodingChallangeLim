@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <!-- inserisco il charset per far riconoscere tutti i caratteri al browser -->
+        <meta charset="UTF-8">
+        <title>Coding Challange - Lim</title>
+        <!-- Inserisco bootstrap per facilitarmi lo style della pagine e in più metto un css mio personalizzato -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+          <!-- creo il "boxmodel" identificato come il quadrato nero opaco dietro al testo -->
+          <div class="boxmodel">
+              <!-- Immagine del logo titolo e bottoni -->
+              <img src="img/logo.png" class="img">
+              <h1 class="title">Taking Booleaners from A to B</h1>
+              <div class="boxbutton">
+                    <button>Prenota</button><button>Termina Prenotazione</button><button>Accendi Luci</button>
+              </div>
+              <!-- ^^^^^^^^^^^^^^^^^^^^^^^^ -->
+
+              <!-- Inserisco l'iterazione dei monopattini -->
+              <!-- 1 monopattino -->
+              <div class="monopattini">
+                  <input type="checkbox" id="vehicle1">
+                  <label for="vehicle1"><h3>Monopattino Gino22</h3></label><br>
+                  <p>⟼ Via Guadalametri - a 220 metri da te</p>
+                  <p>Stato carica:</p>
+                  <div class="progress">
+                      <div class="progress-bar bg-warning" role="progressbar" style="width: 35%"></div>
+                  </div>
+              </div>
+              <!-- ^^^^^^^^^^^^^^^^^^^^^^^^ -->
+              <!-- 2 monopattino -->
+              <div class="monopattini">
+                  <input type="checkbox" id="vehicle2">
+                  <label for="vehicle2"><h3>Monopattino Mike24</h3></label><br>
+                  <p>⟼ Via Ricciardoni - a 420 metri da te</p>
+                  <p>Stato carica:</p>
+                  <div class="progress">
+                      <div class="progress-bar bg-success" role="progressbar" style="width: 60%"></div>
+                  </div>
+              </div>
+              <!-- ^^^^^^^^^^^^^^^^^^^^^^^^ -->
+              <!-- 3 monopattino -->
+              <div class="monopattini">
+                  <input type="checkbox" id="vehicle3">
+                  <label for="vehicle3"><h3>Monopattino Fede154</h3></label><br>
+                  <p>⟼ Via Mentarini - a 490 metri da te</p>
+                  <p>Stato carica:</p>
+                  <div class="progress">
+                      <div class="progress-bar bg-danger" role="progressbar" style="width: 15%"></div>
+                  </div>
+              </div>
+              <!-- ^^^^^^^^^^^^^^^^^^^^^^^^ -->
+          </div>
+    </body>
+</html>
